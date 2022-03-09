@@ -1,0 +1,135 @@
+body {
+    /* Old browsers */
+    /* background: #141E30; */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(-45deg, #35577D, #141E30); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(-45deg, #90b8e6, #141E30); */
+    margin: 0;
+    padding: 5% 20%;
+    background-image: url("https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg")
+  }
+
+  body>div:first-child{
+    background: #141E30;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    border: solid rgba(255, 255, 255, 0.445) 2px;
+
+  }
+  
+  body a{
+      color: white;
+  }
+
+  h1 {
+    color: #FFF !important;
+    font-size: 2em;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+  }
+nav{
+     text-align:center;
+     }
+  h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-family: Georgia;
+  }
+
+  h3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+
+    font-family: Georgia;
+  }
+  
+  ul {
+    color: aliceblue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  p {
+    color: aliceblue;
+    line-height: 1.3em;
+    text-align: left;
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  ol {
+    color: aliceblue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  .byline {
+    font-family: Georgia;
+    color: rgba(255, 255, 255, 0.5);
+    float: left;
+    font-size: 12px;
+    padding-left: 10px;
+    text-transform: uppercase;
+  }
+  
+  .caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    background-color: white;
+    color: black;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  
+  .image {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  .writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+  }
+  
+  @media screen and (max-width: 670px) {
+      body{
+          padding:2.5%;
+      }
+  }
+  
